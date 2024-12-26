@@ -22,13 +22,16 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 
 
 ## Program
-    import nath
+DEVOLPED BY: NIRANJAN S
+REF .NO.:24900209
 
-    arr_time float(input("Enter the nean inter arrival tine of objects from Feeder (in secs):" 
+    import math
+
+    arr_time=float(input("Enter the nean inter arrival tine of objects from Feeder (in secs):" 
     
-    ser time float(input("Enter the mean inter service time of Lathe Machine (in secs)"))
+    ser_time=float(input("Enter the mean inter service time of Lathe Machine (in secs)"))
 
-    Robot_time-float(input("Enter the Additional time taken for the Robot (in secs): "))
+    Robot_time=float(input("Enter the Additional time taken for the Robot (in secs): "))
 
     c=int(input("Number of service centre: "))
 
