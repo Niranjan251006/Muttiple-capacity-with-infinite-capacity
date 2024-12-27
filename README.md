@@ -12,19 +12,16 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 ![image](https://user-images.githubusercontent.com/103921593/203238035-1c8109bc-cbf2-4c77-baea-c5b682a752ef.png)
 
 ## Procedure :
-
-![image](https://user-images.githubusercontent.com/103921593/203238265-176740b0-eae2-4772-90be-5449869ac9b0.png)
-
-
+![203238265-176740b0-eae2-4772-90be-5449869ac9b0](https://github.com/user-attachments/assets/3c1a5559-9595-42ca-aed4-b8bd377c69de)
 
 
 ## Experiment:
 
-
+![277116563-34666112-8674-4e80-b62d-50ee0a454a36](https://github.com/user-attachments/assets/89b12265-8181-4390-9bed-61b2617af056)
 ## Program
 DEVOLPED BY: NIRANJAN S
 REF .NO.:24900209
-
+~~~
     import math
 
     arr_time=float(input("Enter the nean inter arrival tine of objects from Feeder (in secs):" 
@@ -87,7 +84,23 @@ REF .NO.:24900209
 
     print("--------------------------------------------------------------")    
 
+~~~
 ## Output :
-
+Enter the mean inter arrival time of objects from Feeder (in secs): 10
+Enter the mean  inter service time of Lathe Machine (in secs) :  1
+Enter the Additional time taken for the Robot (in secs) :  7
+Number of service centre :  2
+--------------------------------------------------------------
+Multiple Server with Infinite Capacity - (M/M/c):(oo/FIFO)
+--------------------------------------------------------------
+The mean arrival rate per second : 0.10 
+The mean service rate per second : 0.12 
+Average number of objects in the system : 0.95 
+Average number of objects in the conveyor :  0.15 
+Average waiting time of an object in the system : 9.52 secs
+Average waiting time of an object in the conveyor : 1.52 secs
+Probability that the system is busy : 0.40 
+Probability that the system is empty : 0.60 
+--------------------------------------------------------------
 ## Result : 
-
+Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
