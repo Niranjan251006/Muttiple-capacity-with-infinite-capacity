@@ -102,5 +102,9 @@ Average waiting time of an object in the conveyor : 1.52 secs
 Probability that the system is busy : 0.40 
 Probability that the system is empty : 0.60 
 --------------------------------------------------------------
+Average waiting time of an object in the conveyor : 1.52 secs
+Probability that the system is busy : 0.40 
+Probability that the system is empty : 0.60 
+--------------------------------------------------------------
 ## Result : 
 Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
